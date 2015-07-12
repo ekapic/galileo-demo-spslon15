@@ -1,0 +1,7 @@
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\bin\Debug\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\bin\Debug\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\bin\Debug\GalileoSpsLonClientApp.dll.config
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\bin\Debug\GalileoSpsLonClientApp.pdb
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\obj\Debug\GalileoSpsLonClientApp.dll
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\obj\Debug\GalileoSpsLonClientApp.pdb
+C:\Users\Sogeti\documents\visual studio 2013\Projects\GalileoSpsLonClient\GalileoSpsLonClientApp\obj\Debug\GalileoSpsLonClientApp.csprojResolveAssemblyReference.cache

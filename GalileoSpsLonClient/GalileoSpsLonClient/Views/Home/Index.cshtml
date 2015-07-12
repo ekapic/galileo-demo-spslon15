@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Room Availability</h2>
+        <p class="roomstatus" id="room-status-indicator">
+            Meeting Room #1
+        </p>
+        <button id="btn-refresh" class="btn btn-large btn-primary" type="button">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div class="col-md-6">
+        <h2>Last 10 Minutes</h2>
+        <p>
+            <div id="room-status-history">
+
+            </div>
+        </p>
+        <button id="btn-refresh" class="btn btn-large btn-primary" type="button">
+            <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/javascript" src="~/Scripts/room.js">
+    </script>
+
+    <script type="text/javascript">
+        $().ready(function () {
+            $('#btn-refresh').click(function () {
+                roomStatus.updateStatus();
+            });
+            roomStatus.updateStatus();
+        });
+    </script>
+}
